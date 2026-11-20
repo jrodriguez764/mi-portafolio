@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <form action="/procesar" method="post">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+
+                <label for="nombre"> Nombre:</label> <input type="text" id="nombre" name="nombre"
+                    placeholder="Escriba su nombre completo" maxlength="40" required>
+                <br>
+                <label for="correo">Dirección de correo</label>
+                <input type="email" name="correo" id="correo" required>
+
+                <label for="asunto">Asunto</label>
+                <select name="asunto" id="asunto">
+                    <option value="0"></option>
+                    <option value="1">Oferta de empleo</option>
+                    <option value="2">Solicitud de proyecto</option>
+                    <option value="3">Otros</option>
+                </select>
+
+                <label for="terminos">Acepto las plíticas de confidencialidad</label>
+                <input type="checkbox" name="terminos" id="terminos">
+
+                <label for="mensajes">Comentarios</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+
+                <button type="submit">Enviar datos</button>
+                <button type="reset">Limpiar formulario</button>
+            </fieldset>
+        </form>
+    </main>
+    <br>
+
+    Escribenos
+    <br><br>
+    <a href="mailto:joss.coco@gmail.com">Escribeme</a>
+    <br>
+    <a href="https://github.com/">GitHub</a>
+    <br>
+    <a href="https://sv.linkedin.com/">LinkedIn</a>
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer>&copy;2026 - José Rodríguez, Santa Ana</footer>
+</body>
+
+</html>
