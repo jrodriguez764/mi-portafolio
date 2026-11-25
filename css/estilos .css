@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    border: 0px;
+}
+
+img {
+    border: #0A2A66;
+}
+
+h1 {
+    color: rgb(215, 25, 136);
+    background-color: black;
+    border: 4px dashed rgb(185, 185, 185);
+    text-align: center;
+    border-radius: 15px;
+    font-family: "Asimovian", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+a:hover {
+    background-color: yellowgreen;
+    color: #1E2433;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    border: 1px solid black;
+}
+
+#sobre_mi {
+    background-color: #288a91;
+}
+
+#habilidades {
+    background-color: #426FFF;
+    color: #1E2433;
+}
+
+body {
+    background-color: var(--color-primario);
+}
+
+:root {
+    /* Paleta de colores del sitio */
+    --color-primario: rgb(66, 111, 255);
+    --secundario: ;
+    --acento: ;
+    --fondo: ;
+    --texto: ;
+}
